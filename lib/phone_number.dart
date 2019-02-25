@@ -1,10 +1,6 @@
-library phonenumber_package;
-
 import 'package:country_pickers/country.dart';
 import 'package:flutter/material.dart';
 import 'package:country_pickers/country_pickers.dart';
-
-/// A IntroScreen Class.
 
 class PhoneNumber extends StatefulWidget {
   final ValueChanged<Map<String, dynamic>> onFieldSubmitted;
